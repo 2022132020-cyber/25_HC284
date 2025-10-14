@@ -78,32 +78,27 @@
 
 <table>
   <tr>
-    <td align="center" width="200" height="230" valign="top">
-      <img src="https://github.com/user-attachments/assets/16435f88-e7d3-4e45-a128-3d32648d2d84" width="180" style="border-radius:10px; margin-bottom:10px;"><br>
+    <td align="center" width="200" height="150" valign="top">
       <b>안정은</b><br>
       팀장<br>
       • 손 센서부&구동부<br>설계 보조<br>• 프로젝트 관리
     </td>
-    <td align="center" width="200" height="230" valign="top">
-      <img src="https://github.com/user-attachments/assets/16435f88-e7d3-4e45-a128-3d32648d2d84" width="180" style="border-radius:10px; margin-bottom:10px;"><br>
+    <td align="center" width="200" height="150" valign="top">
       <b>최민권</b><br>
       멘티<br>
       • 센서부·구동부 기획 <br>• 설계 총괄 <br>• 시스템 제어&기능 구현
     </td>
-    <td align="center" width="200" height="230" valign="top">
-      <img src="https://github.com/user-attachments/assets/16435f88-e7d3-4e45-a128-3d32648d2d84" width="180" style="border-radius:10px; margin-bottom:10px;"><br>
+    <td align="center" width="200" height="150" valign="top">
       <b>장형준</b><br>
       멘티<br>
       • 구동부 설계  <br>• 서류 작업 보조 <br>• 모바일 기획 보조
     </td>
-    <td align="center" width="200" height="230" valign="top">
-      <img src="https://github.com/user-attachments/assets/16435f88-e7d3-4e45-a128-3d32648d2d84" width="180" style="border-radius:10px; margin-bottom:10px;"><br>
+    <td align="center" width="200" height="150" valign="top">
       <b>김서희</b><br>
       멘티<br>
       • 구동부 설계 보조  <br>• 회로 구성 보조 <br>• 제작
     </td>
-    <td align="center" width="200" height="230" valign="top">
-      <img src="https://github.com/user-attachments/assets/16435f88-e7d3-4e45-a128-3d32648d2d84" width="180" style="border-radius:10px; margin-bottom:10px;"><br>
+    <td align="center" width="200" height="150" valign="top">
       <b>김동영</b><br>
       멘토<br>
       • 프로젝트 멘토 <br>• 기술 자문 <br>• 프로젝트 관리
@@ -116,13 +111,16 @@
 ---
 
 ## ⚙️ 3. 시스템 구성도
-- **서비스 구성도**  
-  (시스템 블록도, 데이터 흐름도, 제어 구조도 등 첨부 예정)]
-  
+
+- **시스템 구성도**  
 <img width="1685" height="956" alt="image" src="https://github.com/user-attachments/assets/b0f8f22a-bd32-4aca-95cd-5951eeefd84f" />
 
-- **엔티티 관계도(ERD)**  
-  (DB 설계 다이어그램 첨부)
+- **ROS TF 트리 다이어그램**  
+<img width="636" height="293" alt="image" src="https://github.com/user-attachments/assets/55c730f3-7247-4be0-a501-4bbbbd8fd6e4" />
+
+
+- **ROS 노드-토픽 상호작용도**  
+<img width="635" height="247" alt="image" src="https://github.com/user-attachments/assets/50033033-e0a9-46b8-84a8-15a0ea0608c7" />
 
 ---
 
