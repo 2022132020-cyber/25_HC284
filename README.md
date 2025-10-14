@@ -134,23 +134,23 @@
 ---
 
 ## 💻 5. 핵심 소스코드
-#!/usr/bin/env python3
-import rospy
-from sensor_msgs.msg import JointState
-from geometry_msgs.msg import PoseStamped
-import PyKDL as kdl
-from urdf_parser_py.urdf import URDF
-import kdl_parser_py.urdf
-from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
-import time
-from std_msgs.msg import Bool
 
-class KDL_IK_Solver:
-    def __init__(self):
-        rospy.init_node("kdl_ik_solver", anonymous=True)
-        self.cmd_pub = rospy.Publisher(
-            "/arm_controller/command", JointTrajectory, queue_size=10
-        )
+      import rospy
+      from sensor_msgs.msg import JointState
+      from geometry_msgs.msg import PoseStamped
+      import PyKDL as kdl
+      from urdf_parser_py.urdf import URDF
+      import kdl_parser_py.urdf
+      from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
+      import time
+      from std_msgs.msg import Bool
+      
+      class KDL_IK_Solver:
+          def __init__(self):
+              rospy.init_node("kdl_ik_solver", anonymous=True)
+              self.cmd_pub = rospy.Publisher(
+                  "/arm_controller/command", JointTrajectory, queue_size=10
+              )
 
         base_link = rospy.get_param("~base_link", "base_link")
         tip_link  = rospy.get_param("~tip_link", "palm_1")
@@ -250,7 +250,7 @@ class KDL_IK_Solver:
             # print(f"연산 시간time : {end-start}")
         else:
             rospy.logwarn_throttle(1.0, "IK failed")
-
-if __name__ == "__main__":
-    KDL_IK_Solver()
+      
+      if __name__ == "__main__":
+          KDL_IK_Solver()
 
