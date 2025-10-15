@@ -81,27 +81,27 @@
 <table>
   <tr>
     <td align="center" width="200" height="150" valign="top">
-      <b>안정은</b><br>
+      <b>팀장 A</b><br>
       팀장<br>
       • 손 센서부&구동부<br>설계 보조<br>• 프로젝트 관리
     </td>
     <td align="center" width="200" height="150" valign="top">
-      <b>최민권</b><br>
+      <b>팀원 B</b><br>
       멘티<br>
       • 센서부·구동부 기획 <br>• 설계 총괄 <br>• 시스템 제어&기능 구현
     </td>
     <td align="center" width="200" height="150" valign="top">
-      <b>장형준</b><br>
+      <b>팀원 C</b><br>
       멘티<br>
       • 구동부 설계  <br>• 서류 작업 보조 <br>• 모바일 기획 보조
     </td>
     <td align="center" width="200" height="150" valign="top">
-      <b>김서희</b><br>
+      <b>팀원 D</b><br>
       멘티<br>
       • 구동부 설계 보조  <br>• 회로 구성 보조 <br>• 제작
     </td>
     <td align="center" width="200" height="150" valign="top">
-      <b>김동영</b><br>
+      <b>멘토 E</b><br>
       멘토<br>
       • 프로젝트 멘토 <br>• 기술 자문 <br>• 프로젝트 관리
     </td>
